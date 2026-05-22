@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using RESTAPI.Data;
+using RESTAPI.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,6 +8,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=ComputerManagerDb;Trusted_Connection=True;"));
+
+builder.Services.AddScoped<IPcService, PcService>();
 
 var app = builder.Build();
 
