@@ -4,9 +4,7 @@
     <projectFile profileName="http">RESTAPI/RESTAPI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23c806e2-a18f-40fd-b6f7-e4f8d3d89640" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/RESTAPI/RESTAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RESTAPI/RESTAPI.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="23c806e2-a18f-40fd-b6f7-e4f8d3d89640" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,11 +26,17 @@
   }
 }]]></component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/RESTAPI/DTOs/PcComponentResponseDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RESTAPI/DTOs/PcRequestDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RESTAPI/DTOs/PcResponseDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RESTAPI/Data/AppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RESTAPI/Models/Component.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RESTAPI/Models/ComponentManufacturer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RESTAPI/Models/ComponentType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RESTAPI/Models/PC.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RESTAPI/Models/PCComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RESTAPI/Service/IPcService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RESTAPI/Service/PcService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
@@ -84,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1779476792441</updated>
-      <workItem from="1779476794018" duration="1349000" />
+      <workItem from="1779476794018" duration="1653000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <option name="closed" value="true" />
@@ -102,7 +106,47 @@
       <option name="project" value="LOCAL" />
       <updated>1779478033886</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dodanie plików do folder Models">
+      <option name="closed" value="true" />
+      <created>1779478175884</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779478175884</updated>
+    </task>
+    <task id="LOCAL-00004" summary="utworzenie DTO">
+      <option name="closed" value="true" />
+      <created>1779478285968</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779478285968</updated>
+    </task>
+    <task id="LOCAL-00005" summary="utworzenie plików">
+      <option name="closed" value="true" />
+      <created>1779478300581</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779478300581</updated>
+    </task>
+    <task id="LOCAL-00006" summary="uworzenie klasy AppDbContext">
+      <option name="closed" value="true" />
+      <created>1779478373300</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1779478373300</updated>
+    </task>
+    <task id="LOCAL-00007" summary="dodanie serwisów">
+      <option name="closed" value="true" />
+      <created>1779478445787</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1779478445787</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +158,12 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="second commit" />
     <MESSAGE value="utworzenie struktury plików" />
-    <option name="LAST_COMMIT_MESSAGE" value="utworzenie struktury plików" />
+    <MESSAGE value="dodanie plików do folder Models" />
+    <MESSAGE value="utworzenie DTO" />
+    <MESSAGE value="utworzenie plików" />
+    <MESSAGE value="uworzenie klasy AppDbContext" />
+    <MESSAGE value="dodanie serwisów" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodanie serwisów" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
